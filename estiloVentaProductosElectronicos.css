@@ -186,13 +186,13 @@ section .cajaPantallaUnica .cajaImg .cajaBoton #botonCerrar{
 
  footer .cajaContactos{
  	flex-wrap: wrap;
- 	background: #DEB887 ;
+ 	background: rgba(0,0,0,0.9) ;
  	border-radius: 40px;
     height: 150px;
     border-radius: 20px;
  	flex-direction: column;
  	display: flex;
-
+    border:5px double white;
 
  }
 
@@ -252,6 +252,7 @@ footer .cajaContactos .icono .descripcionIcono{
 	justify-content: center;
 	align-items: center;
 	margin-left:5px;
+	color:white;
 }
 
 footer .contenedorDerechos{
