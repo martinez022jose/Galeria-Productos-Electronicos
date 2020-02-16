@@ -59,8 +59,21 @@ $(()=>{
                 imagenUnica.classList.remove('activoPantallaUnica');
 	    });
 		   
-		
-	
+		//Trabajamos sobre la barra de busqueda
+        
+        var elementos = document.querySelectorAll('.cajaItem .img').getAttribute;
+        console.log(elementos);
+        /*
+        var barraBusqueda = document.getElementById('barraDeBusqueda');
+
+        barraBusqueda.addEventListener('input',(evento)=>{
+            var elemento = evento.target.value;
+
+            if($(''))
+
+            
+        })
+	*/
 
 
 });
